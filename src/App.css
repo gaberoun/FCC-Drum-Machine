@@ -18,8 +18,20 @@
   border: 2px white solid;
   border-radius: 5px;
   box-shadow: 2px 2px 5px black;
+  background-color: #CC5801;
 }
 
-button:focus {
+.drum-pad:focus {
   background-color: #1D2B53;
+}
+
+@media (max-width: 767.98px){
+  .drum-pad {
+    width: 9vh;
+    height: 9vh;
+  }
+
+  .drum-set {
+    gap: 25px;
+  }
 }
